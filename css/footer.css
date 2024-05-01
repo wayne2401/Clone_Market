@@ -1,0 +1,37 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding: 20px 0 1px 0;
+  border: 1px 0 0 0 solid #eaeaea;
+  background-color: white;
+}
+
+.footer-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-icons__img {
+  width: 30px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 10px 0px 10px;
+  padding-bottom: 30px;
+  cursor: pointer;
+}
+
+/* 강의에서는 footer-icons의 font size가 reset.css에 의해 
+적용되지 않아 font icons desc를 만들었으나 본인은 잘되서 주석처리.
+icons에서 font size 조절시 svg 사이즈까지 조절되어 desc 사용하기로 함.*/
+.footer-icons__desc {
+  margin-top: 5px;
+  transform: scale(0.7);
+  font-weight: bold;
+}
